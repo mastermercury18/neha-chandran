@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="content-container py-20">
       <AnimatedSection>
-        <h1 className="gradient-text text-4xl md:text-5xl font-bold mb-16 text-center">
+        <h1 className="gradient-text text-4xl md:text-5xl font-bold mb-8 text-center">
           about
         </h1>
       </AnimatedSection>
@@ -13,7 +13,9 @@ export default function About() {
         <AnimatedSection delay={0.2}>
           <div className="prose prose-lg max-w-none">
             <p className="text-muted-foreground leading-relaxed mb-6">
-              i'm a first year at uchicago studying molecular engineering (quantum track) with a minor in entrepreurship & innovation. i'm driven by the three forces of nature: <em>entropy, impermanence, and tension</em>. my goal is to build the future of quantum technology by embracing these principles and turning uncertainty into possibility.
+              i'm a first year at uchicago studying molecular engineering (quantum track) with a minor in entrepreneurship & innovation. 
+              i'm driven by the three forces of nature: <em>entropy, impermanence, and tension</em>. 
+              my goal is to build the future of quantum technology by embracing these principles and turning uncertainty into possibility.
             </p>
           </div>
         </AnimatedSection>
@@ -43,9 +45,7 @@ export default function About() {
               </div>
             </div>
           </div>
-</AnimatedSection>
-
-    
+        </AnimatedSection>
       </div>
     </div>
   );

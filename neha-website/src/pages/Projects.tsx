@@ -51,10 +51,18 @@ export default function Projects() {
   return (
     <div className="content-container py-20">
       <AnimatedSection>
-        <h1 className="gradient-text text-4xl md:text-5xl font-bold mb-16 text-center">
-          projects
-        </h1>
-      </AnimatedSection>
+              <h1 className="gradient-text text-4xl md:text-5xl font-bold mb-8 text-center">
+                projects
+              </h1>
+            </AnimatedSection>
+      
+            <AnimatedSection delay={0.2}>
+              <div className="text-center mb-10">
+                <p className="text-lg text-muted-foreground">
+                  a snapshot of my favourite physics-themed github repos
+                </p>
+              </div>
+            </AnimatedSection>
       
       <div className="grid gap-6 md:grid-cols-2">
         {projects.map((project, index) => (
